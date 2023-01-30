@@ -1,3 +1,6 @@
+//Lee, Miguel P.//
+//Wd-201//
+
 var calculation = require('./calculation.js');
 
 var rateph = 300;

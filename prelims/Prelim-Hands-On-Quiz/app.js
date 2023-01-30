@@ -9,7 +9,7 @@ var sss = 1200;
 var pagibig = 300;
 var philhealth = 400;
 
-var grosspay = calculation.multiplication(rate, hours, days);
+var grosspay = calculation.multiply(rateph, hours, days);
 var tax = calculation.multiplication(grosspay, taxrate);
 var deduction = calculation.add(tax, sss, pagibig, philhealth);
 var netsal = calculation.subtract(grosspay, deduction);

@@ -1,3 +1,6 @@
+//Lee, Miguel P.//
+//Wd-201//
+
 function add(a, b, c, d) {
   return a + b + c + d;
 }

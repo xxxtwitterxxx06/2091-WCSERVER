@@ -3,7 +3,7 @@ function greet(name);{
 }
 
 function congratulations(name);{
-  return "congratulations" + name;
+  return "Congratulations" + name;
 }
 
 function farewell(name);{

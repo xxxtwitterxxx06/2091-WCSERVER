@@ -1,8 +1,7 @@
-var greetings = require('./greetings.js');
+var message = require('./greetings.js');
 
 
-console.log("Hello" + greet);
-console.log("congrats" + congrats);
-console.log("farewell" + farewell);
-
+console.log(message.greet('Miguel'));
+console.log(message.congratulations('Miguel'));
+console.log(message.farewell('Miguel'));
 

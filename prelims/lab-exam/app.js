@@ -1,4 +1,4 @@
-var message = require('./greetings.js');
+var message = require('./message.js');
 
 
 console.log(message.greet('Miguel'));

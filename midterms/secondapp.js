@@ -1,14 +1,11 @@
-var express = require("Express");
+const express = require('express');
+const app = express();
+const port = 3111;
 
-var app = express();
-
-app.get("/", function(request, response){
-    response.send("You have successfully created your second app!");
+app.get('/', (req, res) => {
+  res.send('Hello, Welcome to the Express starter template for Stackblitz!');
 });
 
-var server = app.listen(2001, function () {
-    var host = server.address().address
-    var port = server.address().port
-
-    console.log(`Example app listening at http://%s:%s`, host, port)
-})
+app.listen(port, () => {
+  console.log(`App is live at http://localhost:${port}`);
+});

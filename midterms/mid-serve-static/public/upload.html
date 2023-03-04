@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Express App | Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="navbar">
-        <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-            <a href="upload.html">Upload</a>
-          </div>
-  <h1>WCSERVER.</h1>
-  <h2>This is Upload Page.</h2>
-<div class="sub-not-found">
-    <a></a>
-</div>
-</body>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="upload.html">Upload</a>
+    </div>
+    <h1>WCSERVER.</h1>
+    <h1>Welcome to WCSERVER</h1>
+    <h2>This is the Upload page</h2>
+    <br />
+    <h1>Upload videos you've like</h1>
+    <form action="/uploads" enctype="multipart/form-data" method="POST">
+      <input type="file" name="myFile" /> <br />
+      <button type="submit">Submit</button>
+    </form>
+    <div class="sub-not-found">
+      <a></a>
+    </div>
+  </body>
 </html>
